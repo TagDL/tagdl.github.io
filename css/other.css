@@ -1,0 +1,83 @@
+#bg
+{
+    background-color: white;
+    background-image: url("../img/2.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    padding-bottom: 10%;
+    background-position:center;
+}
+
+
+.page-header {
+    margin: 0;
+    padding: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 200%;
+    backdrop-filter: blur(10px);
+    font-size:larger;
+    text-align: center;
+    color: black;
+}
+@font-face
+{
+	font-family: Font;
+	src: url('../font/HYBiRanTianTianQuanW-2.ttf');
+}
+div
+{
+	font-family:Font;
+}
+.intf/*used for introduction.html*/
+{
+    font-size: large;
+    text-align: center;
+}
+.container
+{
+    position: relative;
+    width: 60%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    color: rgb(249, 250, 201);
+    backdrop-filter: blur(5px);
+    margin: auto;
+    border-radius: 20px ;
+}
+button
+{
+    background-color: rgba(255,0,0,0);
+    border-radius: 10px ;
+    font-family:Font;
+    float: right;
+}
+.h
+{
+    font-size: large;
+    color: black;
+}
+p
+{
+    font-size: small;
+    color: black;
+}
+footer
+{
+    font-size: small;
+    color: black;
+    float: right;
+    font-family:Font;
+}
+a:link 
+{
+    color: black;
+}
+a:visited
+{
+    color: black;
+}
