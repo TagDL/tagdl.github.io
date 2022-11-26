@@ -1,0 +1,48 @@
+#button{
+    position: absolute;
+    top: 200px;
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    animation: ani 1000ms ;
+}
+p,h1,div{
+    font-family:Font;
+}
+p{
+    word-wrap:break-word;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+#ani div{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    flex-direction: row;
+}
+#ani div div{
+    border: solid white 1px;
+    padding: 15px 40px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+@keyframes ani {
+    from{
+        top: 250px;
+        opacity: 0;
+    }
+    to{
+        top: 200px;
+        opacity: 1;
+    }
+}
+@font-face
+{
+	font-family: Font;
+	src: url('../font/HYBiRanTianTianQuanW-2.ttf');
+}
