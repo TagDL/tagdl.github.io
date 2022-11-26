@@ -7,11 +7,12 @@ $(document).ready(function () {
             $(".hoshi div").addClass("shooting_star")
             bool = true;
             num = 2;
+            $("#ani div div:nth-child(1)").html("上一页")
+            $("#ani div div:nth-child(2)").html("下一页")
         }
         show_f()
         changepage(--num)
-        $("#ani div div:nth-child(1)").html("上一页")
-        $("#ani div div:nth-child(2)").html("下一页")
+
     })
     $("#ani div div:nth-child(2)").on("click", function () {
         if (num == 0) {
