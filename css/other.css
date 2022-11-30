@@ -21,6 +21,7 @@
     font-size:larger;
     text-align: center;
     color: black;
+	border: white solid 2px;
 }
 @font-face
 {
@@ -48,6 +49,7 @@ div
     backdrop-filter: blur(5px);
     margin: auto;
     border-radius: 20px ;
+	border: white solid 2px;
 }
 button
 {
