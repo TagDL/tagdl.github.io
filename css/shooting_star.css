@@ -46,6 +46,11 @@ p{
 	font-family: Font;
 	src: url('../font/HYBiRanTianTianQuanW-2.ttf');
 }
+@media screen and (max-width:800px) {
+    body{
+        top:50px;
+    }
+}
 /* *{
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
