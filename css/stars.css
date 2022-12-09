@@ -1,5 +1,9 @@
 body {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
     height: 100vh;
     overflow: hidden;
     display: flex;
