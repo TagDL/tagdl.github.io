@@ -44,7 +44,7 @@ function changepage(N) {//页数从1开始
         case 2:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","星の海.mp3")
+                $("#A").attr("src","music/星の海.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -53,7 +53,7 @@ function changepage(N) {//页数从1开始
         case 3:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","星の海.mp3")
+                $("#A").attr("src","music/星の海.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -62,7 +62,7 @@ function changepage(N) {//页数从1开始
         case 4:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","列車はゆく.mp3")
+                $("#A").attr("src","music/列車はゆく.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -71,7 +71,7 @@ function changepage(N) {//页数从1开始
         case 5:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","列車はゆく.mp3")
+                $("#A").attr("src","music/列車はゆく.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -80,7 +80,7 @@ function changepage(N) {//页数从1开始
         case 6:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","列車はゆく.mp3")
+                $("#A").attr("src","music/列車はゆく.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -89,7 +89,7 @@ function changepage(N) {//页数从1开始
         case 7:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","砕け散る星.mp3")
+                $("#A").attr("src","music/砕け散る星.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -98,7 +98,7 @@ function changepage(N) {//页数从1开始
         case 8:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","砕け散る星.mp3")
+                $("#A").attr("src","music/砕け散る星.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -107,7 +107,7 @@ function changepage(N) {//页数从1开始
         case 9:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","星の海.mp3")
+                $("#A").attr("src","music/星の海.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -116,7 +116,7 @@ function changepage(N) {//页数从1开始
         case 10:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","星の海.mp3")
+                $("#A").attr("src","music/星の海.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -125,7 +125,7 @@ function changepage(N) {//页数从1开始
         case 11:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","星の海.mp3")
+                $("#A").attr("src","music/星の海.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
@@ -134,7 +134,7 @@ function changepage(N) {//页数从1开始
         case 12:
             if(bool == true){
                 document.getElementById("A").pause()
-                $("#A").attr("src","終わらない旅.mp3")
+                $("#A").attr("src","music/終わらない旅.mp3")
                 document.getElementById("A").play();
             }
             $("h1").html("")
