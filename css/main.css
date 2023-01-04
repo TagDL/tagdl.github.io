@@ -51,7 +51,7 @@ body{
     justify-content: center;
     gap: 22px;
 }
-footer
+#icp
 {
     text-align: center;
 }
@@ -105,6 +105,11 @@ a:visited {
     .music > *{
         top:20%;
     }
+	#painter{
+        position: absolute;
+        top: 100%;
+        left: 80%;
+    }
 }
 @media screen and (max-width:800px) {
     body{
@@ -120,6 +125,9 @@ a:visited {
         -ms-flex-direction: column;
         -moz-flex-direction: column;
         -o-flex-direction: column;
+    }
+	#painter{
+        text-align: center;
     }
 }
 @media screen and (max-width:1029px) {
