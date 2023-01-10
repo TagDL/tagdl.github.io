@@ -1,0 +1,133 @@
+body{
+    margin:100px;
+    padding: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image: linear-gradient(to top right, rgb(2, 2, 99),rgb(104, 104, 255));
+}
+body::before{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: -100px;
+    top:-100px;
+    border-radius: 50%;
+    background-color: pink;
+}
+body::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: -100px;
+    bottom:-100px;
+    border-radius: 50%;
+    background-color: rgb(0, 238, 255);
+    z-index: -1;
+}
+/* footer{
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: 150px 150px rgb(0, 238, 255);
+    width: 600px;
+    height: 600px;
+} */
+.outer{
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: black 3px 3px 50px;
+    color: white;
+    display: flex;
+    padding: 50px;
+    overflow: hidden;
+    position: relative;
+}
+ul{
+    margin: 0;
+    padding:0;
+    display: inline;
+    /* background-color: white; */
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    color:white;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+#donate{
+    display: none;
+}
+img{
+    border-radius: 10px;
+}
+.tree{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 22px;
+}
+.branch{
+    border: white solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: scale 0.5s;
+}
+.branch:hover{
+    scale: 1.05;
+}
+h2{
+    cursor: pointer;
+}
+#underline{
+    color: blue;
+    background-color: white;
+    position: absolute;
+    width: 80px;
+    left: 10px;
+    z-index: 1;
+    height: 2px;
+    opacity: 0;
+    top: 16px;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+@media screen and (min-width:950px) {
+    .outer{
+        flex-direction: row;
+        justify-content: center;
+        height: 350px;
+    }
+    ul{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    footer{
+        right: 130px;
+        bottom: 130px;
+    }
+}
+@media screen and (max-width:950px) {
+    .outer{
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+    footer{
+        right: 5%;
+        bottom: -5%;
+    }
+    body{
+        margin: 50px;
+    }
+}
