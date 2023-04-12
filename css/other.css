@@ -17,11 +17,11 @@
     padding-bottom: 5%;
     width: 100%;
     height: 200%;
-    backdrop-filter: blur(10px);
     font-size:larger;
     text-align: center;
     color: black;
-	border: white solid 2px;
+    backdrop-filter: blur(2px); 
+    border: #3a7fb3 solid 2px;
 }
 @font-face
 {
