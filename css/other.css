@@ -49,7 +49,7 @@ div
     backdrop-filter: blur(5px);
     margin: auto;
     border-radius: 20px ;
-	border: white solid 2px;
+    border: #3a7fb3 solid 2px;
 }
 button
 {
