@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: black;
+    color: white;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    background-color: gray;
+    padding: 1% 0 1% 0;
+    margin: 0;
+    font-size: 0;
+    text-align: center;
+}
+
+li {
+    font-size: medium;
+    padding: 1% 5% 1% 5%;
+    display: inline;
+    transition: background-color 0.4s;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: dimgrey;
+    transition: background-color 0.6s;
+}
+
+#main {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#start:hover {
+    background-color: dimgrey;
+    transition: background-color 0.6s;
+}
+
+#start {
+    cursor: pointer;
+    background-color: gray;
+    margin: 0 40%;
+    padding: 10px 10px;
+    text-align: center;
+    transition: background-color 0.4s;
+    border-radius: 5px;
+}
+td{
+    border: solid white 1px;
+    background-color: gray;
+    color: gray;
+    text-align: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 25px 30px;
+    gap: 20px;
+    transition: all 0.4s;
+}
+td:hover{
+    background-color: dimgray;
+    color: dimgray;
+    transition: all 0.6s;
+}
+
+tr{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+#justice{
+    /* 用于table的居中 */
+    display: flex;
+    justify-content: center;
+}
+
