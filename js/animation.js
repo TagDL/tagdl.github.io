@@ -20,7 +20,7 @@ $(document).ready(function () {
         window.open("https://www.angelcloud.top/");
     });
     $(".so").on("click",function () { 
-        window.location.href = "https://www.shirosakitagdl.top/some";
+        window.location.href = "https://www.tagdl.top/some";
     });
     $(".left").on("click",function () { 
         if(clickleft){
